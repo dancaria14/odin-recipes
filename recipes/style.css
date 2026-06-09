@@ -1,0 +1,39 @@
+html, body{
+    background-color: antiquewhite;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin-top: 10px;
+    border-top: 3px solid;
+    border-radius: 5%;
+    flex: 1;
+}
+h1{
+    text-align: center;
+    margin: 0 0 auto 0;
+    background-color: antiquewhite;
+}
+img{
+    width: 500px;
+    height: auto;
+    display: block;
+}
+
+.voltar{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
